@@ -1,0 +1,91 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Primary style of this website */
+.navbar, .hero_section{
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: auto;
+    align-items: center;
+}
+.section_title{
+    color: #272727;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: normal;
+}
+p{
+    font-family: 'Lato', sans-serif;
+    color: #27272791;
+    font-size: 17px;
+}
+.primary_btn {
+    padding: 14px 20px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+}
+.primary_btn:hover,
+.primary_btn:focus {
+  box-shadow: 0 0.5em 0.5em -0.5em #724851;
+  transform: translateY(-0.25em);
+  cursor: pointer;
+}
+
+/* header style start */
+.main_head{
+    background: #FCEEF1;
+}
+.nav_logo a img{
+    width: 40%;
+}
+.nav_list ul{
+    display: flex;
+    justify-content: space-around;
+}
+.nav_list ul li{
+    list-style-type: none;
+    margin: 0 20px;
+}
+.nav_list ul li a{
+text-decoration: none;
+color: #000;
+font-size: 17px;
+}
+
+/* Hero section style start */
+.main_hero_section{
+    background: #FCEEF1;
+}
+.hero_section{
+    gap: 100px;
+}
+.hero_txt{
+    width: 80%;
+    margin: auto;
+}
+.hero_txt p{
+    margin-bottom: 20px;
+}
+.hero_txt h1{
+    color: #272727;
+    font-family: 'Lato', sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: normal;
+}
+.hero_img img{
+    width: 100%;
+}
+
+/* featured flower style start */
