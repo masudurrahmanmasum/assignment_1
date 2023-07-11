@@ -7,7 +7,7 @@
 }
 
 /* Primary style of this website */
-.navbar, .hero_section, .featured_img, .service_div, .main_deal_sec, .main_insta_sec{
+.navbar, .hero_section, .featured_img, .service_div, .main_deal_sec, .main_insta_sec, .contact_div{
     display: flex;
     justify-content: space-between;
     max-width: 80%;
@@ -32,7 +32,7 @@ p{
     line-height: 1.5;
 }
 .primary_btn {
-    padding: 14px 20px;
+    padding: 13px 20px;
     border-radius: 8px;
     background: #E55473;
     color: #FFF;
@@ -131,21 +131,6 @@ font-size: 17px;
     display: inline-block;
     word-spacing: 1.5px;
 }
-/* service section style start */
-.service_div{
-    width: 80%;
-    justify-content: space-around;
-    border-radius: 8px;
-    background: rgba(39, 39, 39, 0.05);
-    margin-top: 100px;
-    padding: 50px;
-}
-.single_service{
-    text-align: center;
-}
-.single_service img{
-    width: 30%;
-}
 /* hot deal section style start  */
 .hot_deal_section{
     margin-top: 130px;
@@ -168,6 +153,53 @@ font-size: 17px;
 .right_deal_img img{
     width: 70%;
 }
+/* service section style start */
+.service_div{
+    width: 80%;
+    justify-content: space-around;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-top: 100px;
+    padding: 50px;
+}
+.single_service{
+    text-align: center;
+}
+.single_service img{
+    width: 30%;
+}
+/* Contact us section style start */
+.contact_section{
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 130px;
+}
+.contact_div{
+    justify-content: space-around;
+    padding: 70px 0;
+}
+.contact_section .section_intro{
+    padding-top: 50px;
+}
+.left_contact_img img{
+    width: 75%;
+}
+.contact_form input, textarea{
+    width: 400px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    margin: 10px 0;
+    display: block;
+}
+.contact_form textarea{
+    resize: none;
+    height: 200px;
+}
+.contact_form button{
+    padding: 11px 20px;
+    margin-top: 5px;
+}
 /* instagram image style section start*/
 .instagram{
     margin-top: 130px;
@@ -182,4 +214,53 @@ font-size: 17px;
 .single_insta_img:hover {
     box-shadow: 0 0 11px rgba(33,33,33,.2); 
     cursor: pointer;
-  }
+}
+/* subscribe section style start */
+.subscribe_div{
+    width: 80%;
+    margin: auto;
+    background-image: url("../img/subscribe.png");
+    background-position: center center;
+    background-size: cover;
+    padding: 80px;
+    margin-top: 130px;
+}
+.subscribe_input{
+    text-align: center;
+    margin-top: 30px;
+}
+.subscribe_input input[type=email]{
+    width: 500px;
+    height: 50px;
+    background: #fff;
+    border: none;
+    border-radius: 8px;
+    margin: auto;
+    padding-left: 25px;
+}
+.subscribe_btn{
+    margin-left: 15px;
+}
+.subscribe_btn:hover{
+    box-shadow: 0 0.5em 0.5em -0.5em #413e3f;
+    transform: none;
+}
+/* footer section style start */
+footer{
+    background: #000;
+    margin-top: 130px;
+}
+.footer_desc{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 60px 0;
+}
+.footer_desc .section_intro h2, .footer_desc .section_intro p{
+    color: #ffffffc4;
+    margin: 20px 0;
+}
+.copyright_txt{
+    color:rgba(255, 255, 255, 0.40);
+    font-size: 15px;
+}
