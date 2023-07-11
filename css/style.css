@@ -7,7 +7,7 @@
 }
 
 /* Primary style of this website */
-.navbar, .hero_section, .featured_img, .service_div, .main_deal_sec{
+.navbar, .hero_section, .featured_img, .service_div, .main_deal_sec, .main_insta_sec{
     display: flex;
     justify-content: space-between;
     max-width: 80%;
@@ -168,3 +168,18 @@ font-size: 17px;
 .right_deal_img img{
     width: 70%;
 }
+/* instagram image style section start*/
+.instagram{
+    margin-top: 130px;
+}
+.main_insta_sec{
+    margin-top: 50px;
+    gap: 20px;
+}
+.single_insta_img img{
+    width: 100%;
+}
+.single_insta_img:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    cursor: pointer;
+  }
