@@ -5,7 +5,7 @@
 }
 
 /* Primary style of this website */
-.navbar, .hero_section{
+.navbar, .hero_section, .featured_img, .service_div{
     display: flex;
     justify-content: space-between;
     max-width: 80%;
@@ -14,16 +14,22 @@
 }
 .section_title{
     color: #272727;
-    text-align: center;
     font-family: 'Lato', sans-serif;
     font-size: 35px;
     font-weight: 600;
     line-height: normal;
 }
+.section_intro{
+    text-align: center;
+}
+.section_intro p{
+    margin-top: 10px;
+}
 p{
     font-family: 'Lato', sans-serif;
     color: #27272791;
-    font-size: 17px;
+    font-size: 16px;
+    line-height: 1.5;
 }
 .primary_btn {
     padding: 14px 20px;
@@ -37,7 +43,7 @@ p{
 }
 .primary_btn:hover,
 .primary_btn:focus {
-  box-shadow: 0 0.5em 0.5em -0.5em #724851;
+  box-shadow: 0 0.5em 0.5em -0.5em #413e3f;
   transform: translateY(-0.25em);
   cursor: pointer;
 }
@@ -75,7 +81,9 @@ font-size: 17px;
     margin: auto;
 }
 .hero_txt p{
-    margin-bottom: 20px;
+    margin: 15px 0;
+    line-height: 1.5;
+
 }
 .hero_txt h1{
     color: #272727;
@@ -89,3 +97,54 @@ font-size: 17px;
 }
 
 /* featured flower style start */
+.featured_sec{
+    margin-top: 100px;
+}
+.featured_img{
+    margin-top: 70px;
+}
+.single_fitured_img{
+    border-radius: 300px 300px 0px 0px;
+    flex-basis: 26%;
+}
+.single_img_bg1{
+    background: rgba(167, 33, 98, 0.15);
+}
+.single_img_bg2{
+    background: rgba(5, 151, 160, 0.15);
+}
+.single_img_bg3{
+    background: rgba(71, 125, 17, 0.15);
+}
+.single_fitured_img img {
+    width: 250px;
+    height: 300px;
+    padding: 50px 50px 0 50px;
+}
+.single_feature_container{
+    text-align: center;
+}
+.single_feature_container a{
+    color: #272727;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration-line: underline;
+    margin-top: 50px;
+    word-spacing: 1.5px;
+}
+/* service section style start */
+.service_div{
+    width: 80%;
+    justify-content: space-around;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-top: 100px;
+    padding: 50px;
+}
+.single_service{
+    text-align: center;
+}
+.single_service img{
+    width: 30%;
+}
