@@ -2,10 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+
 }
 
 /* Primary style of this website */
-.navbar, .hero_section, .featured_img, .service_div{
+.navbar, .hero_section, .featured_img, .service_div, .main_deal_sec{
     display: flex;
     justify-content: space-between;
     max-width: 80%;
@@ -14,7 +16,6 @@
 }
 .section_title{
     color: #272727;
-    font-family: 'Lato', sans-serif;
     font-size: 35px;
     font-weight: 600;
     line-height: normal;
@@ -26,7 +27,6 @@
     margin-top: 10px;
 }
 p{
-    font-family: 'Lato', sans-serif;
     color: #27272791;
     font-size: 16px;
     line-height: 1.5;
@@ -36,7 +36,6 @@ p{
     border-radius: 8px;
     background: #E55473;
     color: #FFF;
-    font-family: 'Lato', sans-serif;
     font-size: 15px;
     font-weight: 400;
     border: none;
@@ -87,7 +86,6 @@ font-size: 17px;
 }
 .hero_txt h1{
     color: #272727;
-    font-family: 'Lato', sans-serif;
     font-size: 55px;
     font-weight: 700;
     line-height: normal;
@@ -126,11 +124,11 @@ font-size: 17px;
 }
 .single_feature_container a{
     color: #272727;
-    font-family: 'Lato';
     font-size: 16px;
     font-weight: 500;
     text-decoration-line: underline;
-    margin-top: 50px;
+    margin-top: 10px;
+    display: inline-block;
     word-spacing: 1.5px;
 }
 /* service section style start */
@@ -147,4 +145,26 @@ font-size: 17px;
 }
 .single_service img{
     width: 30%;
+}
+/* hot deal section style start  */
+.hot_deal_section{
+    margin-top: 130px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 80px 60px 30px 60px ;
+}
+.main_deal_sec{
+    width: 80%;
+    justify-content: space-around;
+}
+.left_deal{
+    text-align: center;
+}
+.left_deal p{
+    margin: 20px 0;
+}
+.left_deal h2{
+    font-size: 35px;
+}
+.right_deal_img img{
+    width: 70%;
 }
